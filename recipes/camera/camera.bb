@@ -7,7 +7,7 @@ SRC_URI = "https://github.com/discosat/DiscoCameraController.git;branch=main;rev
 
 SRC_URI += " \
     https://github.com/spaceinventor/libcsp.git;protocol=https;destsuffix=git/lib/csp;name=libcsp;branch=master;rev=7ba36fb06ec21a5ade61672c2a55e3917619f58f \
-    https://github.com/discosat/libparam.git;protocol=https;destsuffix=git/lib/param;name=libparam;branch=master;rev=768970c6320a455250ddd88903bbd9f58db81216 \
+    https://github.com/spaceinventor/libparam.git;protocol=https;destsuffix=git/lib/param;name=libparam;branch=master;rev=42b73b46d8347789e9b0b4452e3d9568b9f3ec4d \
 "
 
 S = "${WORKDIR}/git"
